@@ -5,7 +5,7 @@
 // Hoera!
 // Hoera!
 // ==========================================
-for (let i =0; i < 3; i++){
+for (let i = 0; i < 3; i++){
     console.log ("Hoera!");
 }
 
@@ -19,7 +19,7 @@ for (let i =0; i < 3; i++){
 // loop...
 // klaar!
  // ==========================================
-for (let i =0; i < 4; i++) {
+for (let i = 0; i < 4; i++) {
     console.log("loop...");
 }
     console.log ("klaar!");
@@ -36,7 +36,7 @@ for (let i =0; i < 4; i++) {
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
-for (var n=0; n<=15; n++) {
+for (var n = 0; n <= 15; n++) {
     if (n === 0) {
         console.log(n +  " is even");
     }
@@ -64,12 +64,12 @@ for (var n=0; n<=15; n++) {
 // >> 9
 // ==========================================
 
-for (var x=0; x<=9; x++) {
-    if (x>2 && x<=5) {
-        console.log( ">"+x);
+for (var x = 0; x <= 9; x++) {
+    if (x > 2 && x <= 5) {
+        console.log(">"+ x);
     }
-    else if (x>5 && x<10) {
-        console.log(">>"+x);
+    else if (x > 5 && x < 10) {
+        console.log(">>"+ x);
     }
     else {
         console.log(x);
