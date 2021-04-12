@@ -57,6 +57,6 @@ const squares = [30, 2, 8, 24, 11];
 
 console.log (squares);
 for ( var i=0; i <squares.length; i++) {
-    squares[i] = squares[i] * squares[i] * squares[i];
+    squares[i] = Math.pow (squares [i],3)
 }
 console.log (squares);
